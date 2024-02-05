@@ -1,0 +1,18 @@
+message
+32010
+NODE
+NODE Block                                  0.0000          000000
+ELEM
+ELEM Block           CELM
+                                         Auto    0       0.0       0.0    1
+CELM Block                                                                 0.010     0.010     0.010
+                                         Auto    0       0.0       0.0   -1
+RBAR  Bar1
+       D10 1950000.0    4100.0
+RBAR  Bar2
+       D10 1950000.0    4100.0
+LOAD
+
+STEP     1    0.0001    1.0000    0.0000    0.0000
+STEP    10    0.0100    1.0000    0.0000    0.0000
+END
